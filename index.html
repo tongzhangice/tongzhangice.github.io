@@ -1,380 +1,262 @@
-<!DOCTYPE html>
-<html>
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="utf-8">
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-  <title>Home of Tong</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Ice sheet and Climate">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Home of Tong">
-<meta property="og:url" content="http://tongzhangice.github.io/index.html">
-<meta property="og:site_name" content="Home of Tong">
-<meta property="og:description" content="Ice sheet and Climate">
-<meta property="og:locale" content="en">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Home of Tong">
-<meta name="twitter:description" content="Ice sheet and Climate">
-  
-    <link rel="alternative" href="/atom.xml" title="Home of Tong" type="application/atom+xml">
+  <meta name="author" content="Tong Zhang">
   
   
-    <link rel="icon" href="/favicon.png">
   
-  <link rel="stylesheet" href="/css/style.css">
+  
+    <meta name="description" content="Ice sheet and Climate">
+  
+  <title>A place for a little science [ Home of Tong ]</title>
+  
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+  
+  <link rel="stylesheet" href="/css/random.css">
+<link rel="stylesheet" href="/css/vegas.min.css">
+<link rel="stylesheet" href="/css/highlight-railscasts.css">
+<link rel="stylesheet" href="/css/jquery.fancybox.css">
+<link rel="stylesheet" href="/css/iconfont/iconfont.css">
+<link rel="stylesheet" href="/css/jquery.fancybox-thumbs.css">
+<link rel="stylesheet" href="/css/plyr.css">
+  
 </head>
 
-<body>
-  <div id="container">
-    <div class="left-col">
-    <div class="overlay"></div>
-<div class="intrude-less">
-	<header id="header" class="inner">
-		<a href="/" class="profilepic">
-			
-			<img lazy-src="https://avatars2.githubusercontent.com/u/8313163?v=3&amp;s=460" class="js-avatar">
-			
-		</a>
-
-		<hgroup>
-		  <h1 class="header-author"><a href="/">Tong Zhang</a></h1>
-		</hgroup>
-
-		
-		<p class="header-subtitle">A place for a little science</p>
-		
-
-		
-			<div class="switch-btn">
-				<div class="icon">
-					<div class="icon-ctn">
-						<div class="icon-wrap icon-house" data-idx="0">
-							<div class="birdhouse"></div>
-							<div class="birdhouse_holes"></div>
-						</div>
-						<div class="icon-wrap icon-ribbon hide" data-idx="1">
-							<div class="ribbon"></div>
-						</div>
-						
-						<div class="icon-wrap icon-link hide" data-idx="2">
-							<div class="loopback_l"></div>
-							<div class="loopback_r"></div>
-						</div>
-						
-						
-						<div class="icon-wrap icon-me hide" data-idx="3">
-							<div class="user"></div>
-							<div class="shoulder"></div>
-						</div>
-						
-					</div>
-					
-				</div>
-				<div class="tips-box hide">
-					<div class="tips-arrow"></div>
-					<ul class="tips-inner">
-						<li>Menu</li>
-						<li>Tags</li>
-						
-						<li>Links</li>
-						
-						
-						<li>About</li>
-						
-					</ul>
-				</div>
-			</div>
-		
-
-		<div class="switch-area">
-			<div class="switch-wrap">
-				<section class="switch-part switch-part1">
-					<nav class="header-menu">
-						<ul>
-						
-							<li><a href="/">homepage</a></li>
-				        
-							<li><a href="/archives">articles</a></li>
-				        
-						</ul>
-					</nav>
-					<nav class="header-nav">
-						<div class="social">
-							
-								<a class="github" target="_blank" href="#" title="github">github</a>
-					        
-								<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
-					        
-								<a class="rss" target="_blank" href="#" title="rss">rss</a>
-					        
-								<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-					        
-						</div>
-					</nav>
-				</section>
-				
-				
-				<section class="switch-part switch-part2">
-					<div class="widget tagcloud" id="js-tagcloud">
-						
-					</div>
-				</section>
-				
-				
-				
-				<section class="switch-part switch-part3">
-					<div id="js-friends">
-					
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">奥巴马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">卡卡的美丽传说</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">本泽马的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">吉格斯的博客</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">习大大大不同</a>
-			        
-			          <a target="_blank" class="main-nav-link switch-friends-link" href="http://localhost:4000/">托蒂的博客</a>
-			        
-			        </div>
-				</section>
-				
-
-				
-				
-				<section class="switch-part switch-part4">
-				
-					<div id="js-aboutme">A modeler and observer of the ice in polar regions</div>
-				</section>
-				
-			</div>
-		</div>
-	</header>				
-</div>
-
+<div class="random-center hide-area">
+  <div id="random-index">
+    <div class="center-field">
+      <img class="avatar" src="https://avatars2.githubusercontent.com/u/8313163?v=3&s=460" width=120 height=120 onClick="openUserCard()">
     </div>
-    <div class="mid-col">
-      <nav id="mobile-nav">
-  	<div class="overlay">
-  		<div class="slider-trigger"></div>
-  		<h1 class="header-author js-mobile-header hide">Tong Zhang</h1>
-  	</div>
-	<div class="intrude-less">
-		<header id="header" class="inner">
-			<div class="profilepic">
-			
-				<img lazy-src="https://avatars2.githubusercontent.com/u/8313163?v=3&amp;s=460" class="js-avatar">
-			
-			</div>
-			<hgroup>
-			  <h1 class="header-author">Tong Zhang</h1>
-			</hgroup>
-			
-			<p class="header-subtitle">A place for a little science</p>
-			
-			<nav class="header-menu">
-				<ul>
-				
-					<li><a href="/">homepage</a></li>
-		        
-					<li><a href="/archives">articles</a></li>
-		        
-		        <div class="clearfix"></div>
-				</ul>
-			</nav>
-			<nav class="header-nav">
-				<div class="social">
-					
-						<a class="github" target="_blank" href="#" title="github">github</a>
-			        
-						<a class="weibo" target="_blank" href="#" title="weibo">weibo</a>
-			        
-						<a class="rss" target="_blank" href="#" title="rss">rss</a>
-			        
-						<a class="zhihu" target="_blank" href="#" title="zhihu">zhihu</a>
-			        
-				</div>
-			</nav>
-		</header>				
-	</div>
-</nav>
-
-      <div class="body-wrap">
-  
-    <article id="post-bio" class="article article-type-post" itemscope itemprop="blogPost">
-  
-    <div class="article-meta">
-      <a href="/2016/02/04/bio/" class="article-date">
-  	<time datetime="2016-02-05T05:43:50.000Z" itemprop="datePublished">2016-02-04</time>
-</a>
+    <div class="center-field">
+      <div class="title" onClick="openUserCard()">Home of Tong</div>
+      <div class="sub-title" onClick="openUserCard()">A place for a little science</div>
     </div>
-  
-  <div class="article-inner">
-    
-      <input type="hidden" class="isFancy" />
-    
-    
-      <header class="article-header">
+    <hr >
+    <div class="center-field">
+      <ul class="index-nav-link">
         
+        
+          
+        
+          
+            <li><a href="/archives">articles</a></li>
+          
+        
+      </ul>
+      <ul class="social-icon">
   
-    <h1 itemprop="name">
-      <a class="article-title" href="/2016/02/04/bio/">Curriculum Vitae</a>
-    </h1>
   
-
-      </header>
-      
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="Research-interests"><a href="#Research-interests" class="headerlink" title="Research interests:"></a><strong>Research interests</strong>:</h1><ul>
-<li>My research interest mainly lies in the fields of ice dynamics and its interaction with, e.g., polar meteorology, climate and ocean circulation. In particular, I am interested in the thermo-mechanical behaviors of (marine) ice sheet, e.g., the grounding line dynamics, and also the dynamical changes of alpine glaciers in Tibet.</li>
+    <li>
+      <a href="https://github.com/stiekel/hexo-theme-random">
+        
+          <i class="icon iconfont github">&#xe606;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="https://coding.net/u/Stiekel">
+        
+          <i class="icon iconfont coding">&#xe607;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="https://twitter.com/SidCN">
+        
+          <i class="icon iconfont twitter">&#xe600;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="http://weibo.com/sidcn">
+        
+          <i class="icon iconfont weibo">&#xe602;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="http://www.douban.com/people/Stiekel/">
+        
+          <i class="icon iconfont douban">&#xe60f;</i>
+        
+      </a>
+    </li>
+  
 </ul>
-<h1 id="Employment"><a href="#Employment" class="headerlink" title="Employment:"></a><strong>Employment</strong>:</h1><ul>
-<li><p><strong>Assistant Professor, Dec 2015 until now</strong><br>Institute of Climate System &amp; Polar Meteorology<br>Chinese Academy of Meteorological Sciences </p>
-</li>
-<li><p><strong>Visiting Research Professor, Aug 2013 – Aug 2015</strong><br>Department of Mathematics &amp; Interdisciplinary Mathematical Institute<br>University of South Carolina, USA </p>
-</li>
-</ul>
-<h1 id="Education"><a href="#Education" class="headerlink" title="Education:"></a><strong>Education</strong>:</h1><ul>
-<li><p><strong>PhD in Physical Geography 2010-2013</strong><br>Cold and Arid Regions Environmental and Engineering Research Institute<br>University of Chinese Academy of Sciences</p>
-</li>
-<li><p><strong>MSc in Physical Geography 2007-2010</strong><br>Cold and Arid Regions Environmental and Engineering Research Institute<br>University of Chinese Academy of Sciences</p>
-</li>
-<li><p><strong>BSc in Material Physics 2003-2007</strong><br>Northwestern Polytechnical University</p>
-</li>
-</ul>
-<h1 id="Visits"><a href="#Visits" class="headerlink" title="Visits"></a><strong>Visits</strong></h1><ul>
-<li>Sandia National Laboratories, NM, 08/02-04, 2015</li>
-<li>Climate System Institute, CAMS, 11/2011-05/2013. </li>
-<li>CIRES, University of Colorado at Boulder, 01-05/2011 </li>
-</ul>
-<h1 id="Conferences"><a href="#Conferences" class="headerlink" title="Conferences"></a><strong>Conferences</strong></h1><ul>
-<li>CESM 20th annual symposium, Colorado, USA, 06/2015</li>
-<li>CESM 19th annual symposium, Colorado, USA, 06/2014</li>
-<li>IGS symposium, Beijing, China, 07/2013</li>
-<li>IGS symposium, University of Alaska Fairbanks, USA, 06/2012</li>
-<li>Cryospheric Change and its Influences–Cryospheric Issues in Regional Sustainable Development, Lijiang, China, 08/2010</li>
-<li>International Symposium on Glacier Inventory, Lanzhou, China, 09/2008</li>
-</ul>
-<h1 id="Expeditions"><a href="#Expeditions" class="headerlink" title="Expeditions"></a><strong>Expeditions</strong></h1><ul>
-<li>East Rongbuk Glacier, Mt. Everest, 05/2012</li>
-<li>East Rongbuk Glacier and Jiemayangzong Glacier, Himalayas, 10/2011</li>
-<li>East Rongbuk Glacier and Jiemayangzong Glacier, Himalayas, 05/2011</li>
-<li>East Rongbuk Glacier and Jiemayangzong Glacier, Himalayas, 10/2010</li>
-<li>East Rongbuk Glacier, Mt. Everest, 08/2010</li>
-<li>NEEM camp, Greenland, 05/2010</li>
-<li>Laohugou No.12 Glacier, Mt. Qilianshan, 08/2009</li>
-<li>East Rongbuk Glacier and Jiemayangzong Glacier, Himalayas, 04/2009</li>
-<li>Zhadang Glacier, Mt. Nyainqntanglha; Zengcuo Glacier, Himalayas, 10/2008</li>
-</ul>
-<h1 id="Code-for-ice-flow"><a href="#Code-for-ice-flow" class="headerlink" title="Code for ice-flow"></a><strong>Code for ice-flow</strong></h1><ul>
-<li>Developer of a two-dimensional first-order thermo-mechanical flow-line/band model</li>
-<li>Main developer of OpenICE (Open Ice Code/Emulator) </li>
-<li>Contributor of FELIX-S: Finite Element for Land Ice eXperiments - Stokes</li>
-</ul>
-<h1 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a><strong>Publications</strong></h1><ul>
-<li><strong>Zhang, T.</strong>, S. Price, L. Ju, W. Leng, J. Brondex, G. Durand, and O. Gagliardini, A comparison of two Stokes ice sheet models applied to the Marine Ice Sheet Model Intercomparison Project for plan view models (MISMIP3d), <em>The Cryosphere Discuss.</em>, doi:10.5194/tc-2016-49, in review, 2016.</li>
-<li>Y. Wang, <strong>T. Zhang</strong>, J. Ren, X. Qin, Y. Liu, W. Sun, J. Chen, M. Ding, W. Du, and D. Qin, An investigation of the thermo-mechanical features of Laohugou Glacier No.12 in Mt. Qilian Shan, western China, using a two-dimensional first-order flow-band ice flow model, <em>The Cryosphere Discuss.</em>, doi:10.5194/tc-2016-38, in review, 2016.</li>
-<li><strong>Zhang, T.</strong>, M. Ding, C. Xiao, D. Zhang, Z. Du, in press: Temperate ice layer found in the upper area of Jima Yangzong Glacier, the headstream of Yarlung Zangbo River, <em>Science Bulletin</em>.</li>
-<li><strong>Zhang, T.</strong>, L. Ju, W. Leng, S. Price, and M. Gunzburger, 2015: Thermomechancially coupled modelling for land-terminating glaciers: a comparison of two-Dimensional, first-order and three-dimensional, full-Stokes approaches,  <em>Journal of Glaciology</em>, 61(227), doi: 10.3189/2015JoG14J220.</li>
-<li>Ming, J., Y. Wang, C. Du, <strong>T. Zhang</strong>, W. Guo, C. Xiao, X. Xu, M. Ding, D. Zhang, W. Yang, 2015. Widespread albedo decreasing and induced melting of Himalayan snow and ice in the early 21st century.  <em>PLoS One</em>, 10(6):e0126235. doi: 10.1371/journal.pone.0126235.</li>
-<li><strong>Zhang, T.</strong>, C. Xiao, W. Colgan, X. Qin, W. Du, X. Liu, W. Sun, Y. Liu and M. Ding. 2013. Observed and Modelled ice temperature and velocity along the main flowline of East Rongbuk Glacier, Qomolangma (Mount Everest). <em>Journal of Glaciology</em>. 59(215), 438–448, doi:10.3189/2013JoG12J202.</li>
-<li><strong>Zhang, T.</strong>, C. Xiao, X. Qin, D. Hou and M. Ding. 2012. Ice thickness survey and landform study of the East Rongbuk Glacier, Mt. Qomolangma. <em>Journal of Glaciology and Geocryology</em>, 34(6), 1449–1459. (in Chinese with English abstract).</li>
-<li>Liu, Y., X. Qin, <strong>T. Zhang</strong>, M. Zhang and W. Du. Variation of the Ningchan River Glacier No.3 in the Lenglongling Range, East Qilian mountains. 2012. <em>Journal of Glaciology and Geocryology</em>, 34(5), 1031–1036.</li>
-<li>Sun, W., X. Qin, J. Ren, X. Yang, <strong>T. Zhang</strong>, Y. Liu, X. Cui and W. Du. 2012. The surface energy budget in the accumulation zone of the Laohugou Glacier No.12 in the western Qilian Mountains, China, in Summer 2009. <em>Arctic, Antarctic and Alpine Research</em>, 44(3), 296-305.</li>
-<li><strong>Zhang, T.</strong>, C. Xiao, 2012. Preliminary study on the modeling of serac landform based on fractal theory. <em>Journal of Glaciology and Geocryology</em>, 34(1): 49-55. (in Chinese with English abstract).</li>
-<li>Wang, S., C. Xiao, A. Xie, C. Li, J. Ren, D. Qin and <strong>T. Zhang</strong>. 2011. An ice core to bedrock, 2537.36 m in depth, of the NEEM international project. <em>Journal of Glaciology and Geocryology</em>, 33(3): 859-594 (in Chinese with English abstract).</li>
-</ul>
-
-      
     </div>
-    
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-    
   </div>
-  
-</article>
-
-
-
-
-
-
-
-
-
-  
-  
 </div>
-      <footer id="footer">
-  <div class="outer">
-    <div id="footer-info">
-    	<div class="footer-left">
-    		&copy; 2018 Tong Zhang
-    	</div>
-      	<div class="footer-right">
-      		<a href="http://hexo.io/" target="_blank">Hexo</a>  Theme <a href="https://github.com/litten/hexo-theme-yilia" target="_blank">Yilia</a> by Litten
-      	</div>
-    </div>
+<div id="user-card">
+  <div class="center-field">
+    <img class="avatar" src="https://avatars2.githubusercontent.com/u/8313163?v=3&s=460">
+    <p id="description">Ice sheet and Climate</p>
+    <ul class="social-icon">
+  
+  
+    <li>
+      <a href="https://github.com/stiekel/hexo-theme-random">
+        
+          <i class="icon iconfont github">&#xe606;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="https://coding.net/u/Stiekel">
+        
+          <i class="icon iconfont coding">&#xe607;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="https://twitter.com/SidCN">
+        
+          <i class="icon iconfont twitter">&#xe600;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="http://weibo.com/sidcn">
+        
+          <i class="icon iconfont weibo">&#xe602;</i>
+        
+      </a>
+    </li>
+  
+    <li>
+      <a href="http://www.douban.com/people/Stiekel/">
+        
+          <i class="icon iconfont douban">&#xe60f;</i>
+        
+      </a>
+    </li>
+  
+</ul>
   </div>
-</footer>
-    </div>
-    
-  <link rel="stylesheet" href="/fancybox/jquery.fancybox.css">
+</div>
 
+
+<div id="btn-view">Hide</div>
 
 <script>
-	var yiliaConfig = {
-		fancybox: true,
-		mathjax: true,
-		animate: true,
-		isHome: true,
-		isPost: false,
-		isArchive: false,
-		isTag: false,
-		isCategory: false,
-		open_in_new: false
-	}
+// is trigger analytics / tongji script
+var isIgnoreHost = false;
+
+if(window && window.location && window.location.host) {
+  isIgnoreHost = ["localhost","127.0.0.1"].some(function(address){
+    return 0 === window.location.host.indexOf(address);
+  });
+}
+
+var isTriggerAnalytics = !( true && isIgnoreHost );
+
 </script>
-<script src="http://7.url.cn/edu/jslib/comb/require-2.1.6,jquery-1.9.1.min.js"></script>
-<script src="/js/main.js"></script>
 
 
 
 
+  
+  
+    <script src="/js/jquery-2.2.3.min.js"></script>
+  
+    <script src="/js/vegas.min.js"></script>
+  
+    <script src="/js/random.js"></script>
+  
+    <script src="/js/highlight.pack.js"></script>
+  
+    <script src="/js/jquery.mousewheel.pack.js"></script>
+  
+    <script src="/js/jquery.fancybox.pack.js"></script>
+  
+    <script src="/js/jquery.fancybox-thumbs.js"></script>
+  
+    <script src="/js/plyr.js"></script>
+  
+
+<script>
+
+  // fancybox
+  var backgroundImages = [];
+  
+  $('#post').each(function(i){
+    $(this).find('img').each(function(){
+      if ($(this).parent().hasClass('fancybox') || $(this).parent().hasClass('fancybox-thumb')) return;
+      var alt = this.alt || this.title;
+      if (alt) $(this).after('<span class="caption">' + alt + '</span>');
+      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
+    });
+    $(this).find('.fancybox').each(function(){
+      $(this).attr('rel', 'post' + i);
+    });
+  });
+  $(".fancybox").fancybox();
+
+var vegasConfig = {"preload­Image":true,"transition":["slideLeft2","slideRight2","flash2"],"timer":true,"delay":5000,"shuffle":true,"count":28};
+var unsplashConfig = {"gravity":"north"};
+// is show background images
+var turnoffBackgroundImage = false;
 
 
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-    tex2jax: {
-        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
-        processEscapes: true,
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+
+
+var backgroundColor = "34495E";
+
+$(".fancybox-thumb").fancybox({
+  prevEffect: 'none',
+  nextEffect: 'none',
+  helpers: {
+    title: {
+      type: 'outside'
+    },
+    thumbs: {
+      width: 50,
+      height: 50
     }
+  }
 });
 
-MathJax.Hub.Queue(function() {
-    var all = MathJax.Hub.getAllJax(), i;
-    for(i=0; i < all.length; i += 1) {
-        all[i].SourceElement().parentNode.className += ' has-jax';                 
-    }       
+// show video with plyr
+$(".video-container iframe").each(function(i){
+  var url = $(this).attr('src');
+  var id = url.split('/').pop();
+  var plyrContainer = document.createElement('div');
+  plyrContainer.className = 'plyr';
+  var plyrElement = document.createElement('div');
+  plyrElement.dataset.videoId = id;
+  switch(true) {
+    case url.search('youtube.com') >= 0:
+      plyrElement.dataset.type = 'youtube';
+      break;
+    case url.search('vimeo.com') >= 0:
+      plyrElement.dataset.type = 'vimeo';
+      break;
+    default:
+      return;
+  };
+  plyrContainer.appendChild(plyrElement);
+  $(this).parent().html(plyrContainer);
 });
+plyr.setup('.plyr', {iconUrl: '/css/sprite.svg'});
 </script>
-
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-</script>
-
-
-  </div>
 </body>
 </html>
+
