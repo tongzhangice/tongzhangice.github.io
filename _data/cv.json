@@ -1,152 +1,196 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Tong Zhang",
+    "email": "tongzhangice@gmail.com",
+    "phone": "+86 18210635171",
+    "website": "https://tongzhangice.github.io",
+    "summary": "Associate Professor at Beijing Normal University working on land ice dynamics, cryosphere-climate interactions, ice-sheet instability, glacier hazards, and land ice model development.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Beijing",
+      "countryCode": "CN",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "username": "Tong Zhang",
+        "url": "https://scholar.google.com/citations?user=yY0BY0wAAAAJ&hl=en"
       },
       {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "network": "ResearchGate",
+        "username": "Tong Zhang",
+        "url": "https://www.researchgate.net/profile/Tong-Zhang-19?ev=hdr_xprf"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "tongzhangice",
+        "url": "https://github.com/tongzhangice"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "name": "Beijing Normal University",
+      "position": "Associate Professor, Faculty of Geographical Science",
+      "startDate": "2021",
+      "endDate": "present",
+      "summary": "Research on land ice dynamics and cryosphere-climate interactions."
+    },
+    {
+      "name": "Los Alamos National Laboratory",
+      "position": "Postdoctoral Researcher, Solid Mechanics and Fluid Dynamics Group",
+      "startDate": "2017",
+      "endDate": "2020",
+      "summary": "Ice-sheet and land ice model development."
+    },
+    {
+      "name": "Chinese Academy of Meteorological Sciences",
+      "position": "Assistant Researcher, Institute of Climate System",
+      "startDate": "2015",
+      "endDate": "2017",
+      "summary": "Polar and Tibetan Plateau climate and cryosphere research."
+    },
+    {
+      "name": "University of South Carolina",
+      "position": "Postdoctoral Researcher, Department of Mathematics",
+      "startDate": "2013",
+      "endDate": "2015",
+      "summary": "Numerical modeling of land ice dynamics."
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Cold and Arid Regions Environmental and Engineering Research Institute, Chinese Academy of Sciences",
+      "area": "Physical Geography",
+      "studyType": "Ph.D.",
+      "startDate": "2010",
+      "endDate": "2013",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "Cold and Arid Regions Environmental and Engineering Research Institute, Chinese Academy of Sciences",
+      "area": "Physical Geography",
+      "studyType": "M.S.",
+      "startDate": "2007",
+      "endDate": "2010",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "Northwestern Polytechnical University",
+      "area": "Materials Physics",
+      "studyType": "B.S.",
+      "startDate": "2003",
+      "endDate": "2007",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Research areas",
+      "keywords": [
+        "land ice dynamics",
+        "ice-sheet modeling",
+        "glacier hazards",
+        "cryosphere-climate interactions",
+        "sea-level rise",
+        "High Mountain Asia"
+      ]
+    },
+    {
+      "name": "Models",
+      "keywords": [
+        "PoLarIS",
+        "PoLIM",
+        "MALI",
+        "higher-order ice-flow models",
+        "Stokes ice-flow models"
+      ]
+    }
+  ],
   "languages": [],
   "interests": [],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Investigating the impact of sub-ice shelf melt on Antarctic ice sheet spin-up and projections",
+      "publisher": "The Cryosphere",
+      "releaseDate": "2026",
+      "website": "https://doi.org/10.5194/tc-20-1947-2026",
+      "summary": "Antarctic ice-sheet projections under alternative sub-ice-shelf melt treatments."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Numerical modeling of ice detachment tipping processes: insights from the Sedongpu Glacier, southeastern Tibetan Plateau",
+      "publisher": "The Cryosphere",
+      "releaseDate": "2025",
+      "website": "https://tc.copernicus.org/articles/19/4487/2025/tc-19-4487-2025.pdf",
+      "summary": "Modeling abrupt glacier detachment and tipping mechanisms."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Projections of peak water timing from the East Rongbuk Glacier, Mt. Everest, using a higher-order ice flow model",
+      "publisher": "Earth's Future",
+      "releaseDate": "2024",
+      "website": "",
+      "summary": "Projection of glacier runoff timing around Mount Everest."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Quantifying uncertainties in the land ice contribution to sea level rise this century",
+      "publisher": "Nature",
+      "releaseDate": "2021",
+      "website": "https://doi.org/10.1038/s41586-021-03302-y",
+      "summary": "Multi-model assessment of land-ice uncertainty in sea-level rise."
     }
   ],
   "presentations": [
     {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
+      "name": "Ice Sheet Model Intercomparison Project for IPCC AR7",
+      "event": "ISMIP7 Meeting",
+      "date": "2026",
+      "location": "Copenhagen, Denmark",
+      "description": "Participation in the ISMIP7 model intercomparison effort."
     },
     {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
+      "name": "Cryosphere and Climate",
+      "event": "CliC Meeting",
+      "date": "2026",
+      "location": "Wellington, New Zealand",
+      "description": "Conference participation on cryosphere-climate interactions."
     },
     {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
+      "name": "Land ice dynamics and cryosphere-climate change",
+      "event": "AGU Annual Meeting",
+      "date": "2025",
+      "location": "New Orleans, LA, USA",
+      "description": "Conference presentation and scientific exchange."
     }
   ],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Land Ice Modeling Summer School",
+      "institution": "Land Ice Modeling Summer School",
+      "date": "2024",
+      "role": "Organizer",
+      "description": "Summer school focused on land ice model theory, implementation, and applications."
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
+      "name": "Land Ice Model Development",
+      "category": "Research",
       "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "url": "/portfolio/land-ice-models/",
+      "description": "PoLIM, PoLarIS, and physically based tools for simulating glacier and ice-sheet dynamics."
+    },
+    {
+      "name": "Cryosphere-Climate Interactions",
+      "category": "Research",
+      "date": "",
+      "url": "/portfolio/cryosphere-climate/",
+      "description": "Ice-sheet instability, sea-level rise, glacier runoff, and abrupt cryosphere events."
     }
   ]
 }
